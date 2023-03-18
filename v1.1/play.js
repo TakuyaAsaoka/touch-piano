@@ -5,7 +5,6 @@
  * @param {Event} e - イベント
  */
 function playSound(e) {
-  console.log(e.type);
   let audio;
   let key;
   if (e.type === "click") {
