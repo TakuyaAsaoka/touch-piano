@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c");
+
+html {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+}
+
+.wraper {
+  width: 100%;
+}
+
+.main-image {
+  position: relative;
+  background-image: url("main-image.jpg");
+  background-size: cover; /*--背景画像のサイズ--*/
+  background-attachment: fixed; /*--背景画像の固定--*/
+  background-repeat: no-repeat; /*--背景画像の繰り返し--*/
+  background-position: center center; /*--背景画像の位置--*/
+  height: 90vh;
+  margin: 5vh auto;
+}
+
+.keyborad {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.keys {
+  display: flex;
+  gap: 4rem;
+}
+
+.left {
+  display: flex;
+}
+
+.right {
+  display: flex;
+}
+
+.key {
+  width: 8rem;
+  height: 8rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: solid;
+  border-width: 0.3rem;
+  border-radius: 50%;
+  /* padding: 1rem; */
+  margin: 0.5rem;
+  transition: all 0.7s;
+}
+
+.key.top {
+  display: flex;
+  border-color: rgba(255, 200, 0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+.key.bottom {
+  display: flex;
+  border-color: rgba(255, 200, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+.sound {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.playing {
+  background-color: rgb(0, 255, 255) !important;
+  border-width: 0.3rem;
+  border-color: rgb(255, 255, 0);
+}

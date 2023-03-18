@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>touch-piano</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="play.js"></script>
+  </head>
+  <body>
+    <div class="wraper">
+      <div class="main-image"></div>
+      <div class="keyborad">
+        <div class="keys top">
+          <div class="left">
+            <div data-key="q" class="key top">
+              <span class="sound">ド</span>
+            </div>
+            <div data-key="w" class="key top">
+              <span class="sound">レ</span>
+            </div>
+            <div data-key="e" class="key top">
+              <span class="sound">ミ</span>
+            </div>
+            <div data-key="r" class="key top">
+              <span class="sound">ファ</span>
+            </div>
+            <div data-key="t" class="key top">
+              <span class="sound">ソ</span>
+            </div>
+          </div>
+          <div class="right">
+            <div data-key="y" class="key top">
+              <span class="sound">ラ</span>
+            </div>
+            <div data-key="u" class="key top">
+              <span class="sound">シ</span>
+            </div>
+            <div data-key="i" class="key top">
+              <span class="sound">ド</span>
+            </div>
+            <div data-key="o" class="key top">
+              <span class="sound">ハット</span>
+            </div>
+            <div data-key="p" class="key top">
+              <span class="sound">スネア</span>
+            </div>
+          </div>
+        </div>
+        <div class="keys bottom">
+          <div class="left">
+            <div data-key="a" class="key bottom">
+              <span class="sound">ド#</span>
+            </div>
+            <div data-key="s" class="key bottom">
+              <span class="sound">レ#</span>
+            </div>
+            <div data-key="d" class="key bottom">
+              <span class="sound">シンバル</span>
+            </div>
+            <div data-key="f" class="key bottom">
+              <span class="sound">ファ#</span>
+            </div>
+            <div data-key="g" class="key bottom">
+              <span class="sound">ソ#</span>
+            </div>
+          </div>
+          <div class="right">
+            <div data-key="h" class="key bottom">
+              <span class="sound">ラ#</span>
+            </div>
+            <div data-key="j" class="key bottom">
+              <span class="sound">キック</span>
+            </div>
+            <div data-key="k" class="key bottom">
+              <span class="sound">タム1</span>
+            </div>
+            <div data-key="l" class="key bottom">
+              <span class="sound">タム2</span>
+            </div>
+            <div data-key=";" class="key bottom">
+              <span class="sound">タム3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <audio data-key="q" src="sound/piano2_do.mp3"></audio>
+      <audio data-key="a" src="sound/piano2_dosharp.mp3"></audio>
+      <audio data-key="w" src="sound/piano2_re.mp3"></audio>
+      <audio data-key="s" src="sound/piano2_resharp.mp3"></audio>
+      <audio data-key="e" src="sound/piano2_mi.mp3"></audio>
+      <audio data-key="r" src="sound/piano2_fa.mp3"></audio>
+      <audio data-key="f" src="sound/piano2_fasharp.mp3"></audio>
+      <audio data-key="t" src="sound/piano2_so.mp3"></audio>
+      <audio data-key="g" src="sound/piano2_sosharp.mp3"></audio>
+      <audio data-key="y" src="sound/piano2_ra.mp3"></audio>
+      <audio data-key="h" src="sound/piano2_rasharp.mp3"></audio>
+      <audio data-key="u" src="sound/piano2_si.mp3"></audio>
+      <audio data-key="i" src="sound/piano2_takaido.mp3"></audio>
+      <audio data-key="d" src="sound/drum2_cymbal.mp3"></audio>
+      <audio data-key="o" src="sound/drum2_hat.mp3"></audio>
+      <audio data-key="p" src="sound/drum2_snare.mp3"></audio>
+      <audio data-key="j" src="sound/drum2_kick.mp3"></audio>
+      <audio data-key="k" src="sound/drum2_tom1.mp3"></audio>
+      <audio data-key="l" src="sound/drum2_tom2.mp3"></audio>
+      <audio data-key=";" src="sound/drum2_tom3.mp3"></audio>
+    </div>
+  </body>
+</html>
