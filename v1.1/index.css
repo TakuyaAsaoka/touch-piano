@@ -12,7 +12,7 @@ body {
 
 .main-image {
   position: relative;
-  background-image: url("main-image.jpg");
+  background-image: url("/main-image.jpg");
   background-size: cover; /*--背景画像のサイズ--*/
   background-attachment: fixed; /*--背景画像の固定--*/
   background-repeat: no-repeat; /*--背景画像の繰り返し--*/
